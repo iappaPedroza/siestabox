@@ -1,0 +1,552 @@
+<!-- =================================================
+Cliente: Siesta Box 
+Site: www.siestabox.com.br
+Author: ITS Tecnologia Criativa
+======================================================= -->
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Versão Beta - &copy; - SiestaBox - Viajar cansa, pouse aqui!</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="microhotelaria, hotelaria, hotel de trânsito, respouso temmporário, Aeroportos" name="keywords">
+    <meta content="Inserir aqui descrição curta para SEO" name="description">
+    <meta content="ITS Tecnologia Criativa" name="Author">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/iTsStyles.css" rel="stylesheet">
+</head>
+
+<body id="body">
+    <!--==========================
+    Top Bar
+    ============================-->
+    <section id="topbar">
+        <div class="container clearfix">
+            <div class="contact-info float-left">
+                <small><i class="fab fa-whatsapp mr-2"></i>+55 81 987654321</small>
+                <small class="px-1">|</small>
+                <small><i class="fa fa-envelope mr-2"></i><a
+                        href="mailto:contato@siestabox.com.br">contato@siestabox.com.br</a></small>
+            </div>
+        </div>
+    </section>
+    <!-- Topbar End -->
+    <!--==========================
+    Header
+    ============================-->
+    <header id="header">
+        <!-- Navbar Start -->
+        <nav id="nav-menu-container" class="container-fluid">
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5">
+                    <a href="index.html" target="_self" class="navbar-brand ml-lg-3">
+                        <!--+Logo=-->
+                        <div id="logo" class="pull-left">
+                            <h1 class="m-0"><img src="img/76x75px-icon-sbMarca.png" alt="" title="" /></h1>
+                        </div>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+                    <!--==========================
+                    NavBar -- 
+                    <a href="#body" class="nav-item nav-link active">Início</a>
+                    <a href="#localidades" class="nav-item nav-link">Localidades</a>
+                    ============================-->
+                    <!-- #nav-menu-container -->
+                    <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                        <div class="navbar-nav m-auto py-0">
+                            <a href="#sobre" class="nav-item nav-link">Sobre</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active"
+                                    data-toggle="dropdown">Localidades</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="#" class="dropdown-item active" data-toggle="modal"
+                                        data-target="#modalRecife">Recife</a>
+                                    <a href="#" class="dropdown-item" data-toggle="modal"
+                                        data-target="#modalBrasilia">Brasília</a>
+                                    <a href="#" class="dropdown-item" data-toggle="modal"
+                                        data-target="#modalCampinas">Campinas</a>
+                                </div>
+                            </div>
+                            <a href="#blog" class="nav-item nav-link">Blog</a>
+                            <a href="#faq" class="nav-item nav-link">FAQ</a>
+                            <a href="#" class="nav-item nav-link" data-toggle="modal" data-target="#contato">Contato</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+    <!-- End Header-->
+    <!-- Service Start -->
+    <div class="container-fluid" id="firstHero">
+        <div class="container firstHero px-0 py-4 my-0" id="localidades">
+            <div class="row mx-0 justify-content-center text-center">
+                <div class="owlCarouselHeader col-lg-12 m-0">
+                    <h6 class="text-uppercase">Onde Estamos</h6>
+                    <h3 class="text-shadow">Selecione um Aeroporto de Destino</h3>
+                    <p class="text-shadow m-0">Escolha sua cabine.</p>
+                </div>
+            </div>
+            <!-- Carousel Start -->
+            <div class="row mx-0 justify-content-center text-center my-0 px-0 py-0">
+                <div class="owl-carousel service-carousel">
+                    <div class="service-item position-relative">
+                        <!-- Unidade Recife -->
+                        <img class="img-fluid w-100" src="img/service-3.jpg" alt="Selecione o Destino">
+                        <div class="service-text text-center">
+                            <h4 class="text-shadow font-weight-bold px-3">Recife</h4>
+                            <p class="text-shadow px-3 mb-3">Aeroporto Gilberto Freyre</p>
+                            <div class="w-100 bg-white text-center p-3">
+                                <a href="#" data-toggle="modal"
+                                data-target="#modalRecife">Saiba Mais <i class="far fa-hand-pointer"></i></a>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-item position-relative">
+                        <!-- Unidade Brasília -->
+                        <img class="img-fluid w-100" src="img/service-2.jpg" alt="">
+                        <div class="service-text  ext-center">
+                            <h4 class="text-shadow font-weight-bold px-3">Brasília</h4>
+                            <p class="text-shadow px-3 mb-3">Aeroporto de Brasília</p>
+                            <div class="w-100 bg-white text-center p-3">
+                                <a class="btn-reservas" href="#" data-toggle="modal"
+                                data-target="#modalBrasilia">Saiba Mais <i class="far fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-item position-relative">
+                        <!-- Unidade Campinas -->
+                        <img class="img-fluid w-100" src="img/service-1.jpg" alt="">
+                        <div class="service-text text-center">
+                            <h4 class="text-shadow font-weight-bold px-2">Campinas - SP</h4>
+                            <p class="text-shadow px-3 mb-3">Aeroporto Viracopos</p>
+                            <div class="w-100 bg-white text-center p-3">
+                                <a href="#" class="btn-reservas" data-toggle="modal" data-target="#modalCampinas">Saiba Mais <i class="far fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+            <!--==========================
+            Formulario Reservas Section
+            ============================-->
+            <section id="reservas" class="wow fadeInUp sec-padding">
+                <div class="row justify-content-center bg-appointment mx-0">
+                    <div class="col-lg-6 py-3">
+                        <div class="p-5 my-5" style="background: rgba(0, 174, 239, 0.7);">
+                            <h1 class="text-white text-center mb-3">Faça já sua Reserva!</h1>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div>
+                                                <select class="custom-select bg-transparent px-1">
+                                                    <option selected>Escolha - Choose</option>
+                                                    <option value="1"> Recife</option>
+                                                    <option value="2"> Brasília</option>
+                                                    <option value="3"> Campinas - SP</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control bg-transparent p-4"
+                                                placeholder="Horas de estadia" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="date" id="date" data-target-input="nearest">
+                                                <input type="text"
+                                                    class="form-control bg-transparent p-4 datetimepicker-input"
+                                                    placeholder="Escolha a data" data-target="#date"
+                                                    data-toggle="datetimepicker" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="time" id="time" data-target-input="nearest">
+                                                <input type="text"
+                                                    class="form-control bg-transparent p-4 datetimepicker-input"
+                                                    placeholder="Escolha a hora" data-target="#time"
+                                                    data-toggle="datetimepicker" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button class="btn-reservas-form" type="submit">Eu quero! <i
+                                            class="far fa-calendar-check"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Formulario Reservas End -->
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- Sobre Section -->
+    <section id="sobre" class="wow fadeInUp sec-padding">
+        <!-- Quem somos Start-->
+        <div class="container-fluid py-3">
+            <div class="container py-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pb-3 pb-lg-0">
+                        <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="text-uppercase py-1 px-4">Sobre</h6>
+                        <h1 class="mb-3 px-4">Quem Somos</h1>
+                        <p class="pl-4 border-left border-primary ml-4">Bem-vindos(as)!
+                            Visando o conforto dos passageiros e demais usuários de aeroportos, desenvolvemos as Cabines
+                            Siesta Box, um ambiente privativo, com CHECK IN/OUT expresso, automatizado, com TV a Cabo,
+                            Ar-Condicionado, Wi-Fi e Cama, numa estrutura confortável e segura para o seu tempo de
+                            espera.
+                            Nossas cabines estão estrategicamente localizadas nos aeroportos de:
+                            Brasília, Campinas e Recife.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quem Somos End -->
+    </section>
+    <!-- Start Modais -->
+    <!-- Aeroportos Start -->
+
+    <!-- Aeroporto Recife -->
+    <div class="modal fade" id="modalRecife" aria-labelledby="recifeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Recife</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid" id="pgRecife">
+                        <div class="container py-2">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute w-100 h-100" src="img/recife-1024x768.jpeg">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pt-1 pb-lg-2">
+                                    <div class="hours-text bg-light p-2 p-lg-3 my-lg-0">
+                                        <h6 class="text-uppercase py-2 px-2">Siesta Box Guararapes</h6>
+                                        <h1 class="mb-3">Recife</h1>
+                                        <p>Horário de Funcionamento / Open Hours</p>
+                                        <ul class="list-inline">
+                                            <li class="h6 py-1"><i class="far fa-clock mr-3"></i>24/7</li>
+                                        </ul>
+                                        <a href="" class="btn btn-primary mt-2">Reserve</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4" style="min-height: 500px;">
+                                    <div class="position-relative h-100">
+                                        <iframe class="position-absolute w-100 h-100"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.6840519416096!2d-34.91974668558577!3d-8.13361239414502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e3a18fdc2b5%3A0x6a24f2d4bf1d52ad!2sSiesta%20Box%20Guararapes!5e0!3m2!1spt-BR!2sbr!4v1631575441916!5m2!1spt-BR!2sbr"
+                                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                            tabindex="0" loading="lazy"></iframe>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aeroporto Brasília -->
+    <div class="modal fade" id="modalBrasilia" aria-labelledby="brasiliaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Brasília</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid" id="pgBrasilia">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6" style="min-height: 500px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute w-100 h-100" src="img/brasilia-1024x768.jpeg"
+                                            style="object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 pt-3 pb-lg-3">
+                                    <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
+                                        <h6 class="text-uppercase py-1 px-2">Siesta Box JK</h6>
+                                        <h1 class="mb-3">Brasília</h1>
+                                        <p>Horário de Funcionamento / Open Hours</p>
+                                        <ul class="list-inline">
+                                            <li class="h6 py-1"><i class="far fa-clock mr-3"></i>24/7</li>
+                                        </ul>
+                                        <a href="" class="btn btn-primary mt-2">Reserve</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="min-height: 500px;">
+                                    <div class="position-relative h-100">
+                                        <iframe class="position-absolute w-100 h-100"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.7112850974568!2d-47.921330385499814!3d-15.871764589003114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a255e6a10884b%3A0x41d96efa9db552ae!2sSiesta%20Box%20Brasilia!5e0!3m2!1spt-BR!2sbr!4v1631575740463!5m2!1spt-BR!2sbr"
+                                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                            tabindex="0" loading="lazy"></iframe>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aeroporto Campinas -->
+    <div class="modal fade" id="modalCampinas" aria-labelledby="campinasModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Campinas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid" id="pgCampinas">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6" style="min-height: 500px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute w-100 h-100" src="img/viracopos-1024x768.jpeg"
+                                            style="object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 pt-3 pb-lg-3">
+                                    <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
+                                        <h6 class="text-uppercase py-1 px-2">Siesta Box Viracopos</h6>
+                                        <h1 class="mb-3">Campinas - SP</h1>
+                                        <p>Horário de Funcionamento / Open Hours</p>
+                                        <ul class="list-inline">
+                                            <li class="h6 py-1"><i class="far fa-clock mr-3"></i>24/7</li>
+                                        </ul>
+                                        <a href="" class="btn btn-primary mt-2">Reserve</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="min-height: 500px;">
+                                    <div class="position-relative h-100">
+
+                                        <iframe class="position-absolute w-100 h-100"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.398711356174!2d-47.149713544910036!3d-23.00912832656351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8f9588d85d7%3A0x1c94280b8743efcb!2sSiesta%20Box%20Viracopos!5e0!3m2!1spt-BR!2sbr!4v1631566213579!5m2!1spt-BR!2sbr"
+                                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                            tabindex="0" loading="lazy"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aeroportos End -->
+    <!-- modal Contato-->
+    <div class="container-fluid modal fade" id="contato">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contato Start -->
+                    <div class="container-fluid" id="contato">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="contact-form bg-light p-2">
+                                        <h1 class="mb-3">Dúvidas, Reclamações, Sugestões</h1>
+                                        <div id="success"></div>
+                                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                            <div class="form-row">
+                                                <div class="col-sm-6 control-group">
+                                                    <input type="text" class="form-control border-0" id="name"
+                                                        placeholder="Seu nome" required="required"
+                                                        data-validation-required-message="Por favor digite seu nome" />
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                                <div class="col-sm-6 control-group">
+                                                    <input type="email" class="form-control border-0" id="email"
+                                                        placeholder="Seu email" required="required"
+                                                        data-validation-required-message="Por favor digite um email válido" />
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+                                            <div class="control-group">
+                                                <input type="text" class="form-control border-0" id="subject"
+                                                    placeholder="Assunto" required="required"
+                                                    data-validation-required-message="Informe um assunto!" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="control-group">
+                                                <textarea class="form-control border-0 py-3" rows="3" id="message"
+                                                    placeholder="Mensagem" required="required"
+                                                    data-validation-required-message="Escreva aqui como podemos te ajudar."></textarea>
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-primary py-3 px-4" type="submit"
+                                                    id="sendMessageButton">Enviar <i
+                                                        class="fa fa-envelope mr-2"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contato End -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal Contato -->
+    <!-- End Modais -->
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative py-3">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand ml-lg-3">
+                        <!--+Logo=-->
+                        <div id="logo" class="pull-left">
+                            <h1 class="m-0"><img src="img/150x149px-icon-sbMarca.png" alt="" title="" /></h1>
+                        </div>
+                    </a>
+                    <p>Viajar cansa. Pouse Aqui.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Recife</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Brasília</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Campinas - SP</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+55 81 99876.5432</p>
+                    <p><i class="fa fa-envelope mr-2"></i>contato@siestabox.com.br</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border-top py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <a href="#">&copy; 2021 - Siesta Box</a>.<br>
+                    <p class="m-0">Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0">Desenvolvido por:<br>
+                        <a href="https://instagram.com/itseletronica.pe/" target="_blank">ITS Tecnologia Criativa</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!--Bottom Mobile Start -->
+    <div id="bottomMobile" class="container-fluid">
+        <div class="container">
+            <div class="row py-2 px-lg-2">
+                <div class="col-lg-6 justify-content-center">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-2" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- B0tt0m Mobile End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

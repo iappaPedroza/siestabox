@@ -1,0 +1,785 @@
+<!-- =================================================
+Cliente: Siesta Box 
+Site: www.siestabox.com.br
+Author: ITS Tecnologia Criativa
+======================================================= -->
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Versão Beta - &copy; - SiestaBox - Viajar cansa, pouse aqui!</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="microhotelaria, hotelaria, hotel de trânsito, respouso temmporário, Aeroportos" name="keywords">
+    <meta content="Inserir aqui descrição curta para SEO" name="description">
+    <meta content="ITS Tecnologia Criativa" name="Author">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/iTsStyles.css" rel="stylesheet">
+</head>
+
+<body id="body">
+    <!--==========================
+    Top Bar
+    ============================-->
+    <section id="topbar">
+        <div class="container clearfix">
+            <div class="contact-info float-left">
+                <small><i class="fab fa-whatsapp mr-2"></i>+55 81 987654321</small>
+                <small class="px-1">|</small>
+                <small><i class="fa fa-envelope mr-2"></i><a
+                        href="mailto:contato@siestabox.com.br">contato@siestabox.com.br</a></small>
+            </div>
+        </div>
+    </section>
+    <!-- Topbar End -->
+    <!--==========================
+    Header
+    ============================-->
+    <header id="header">
+        <!-- Navbar Start -->
+        <nav id="nav-menu-container" class="container-fluid">
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5">
+                    <a href="index.html" target="_self" class="navbar-brand ml-lg-3">
+                        <!--+Logo=-->
+                        <div id="logo" class="pull-left">
+                            <h1 class="m-0"><img src="img/76x75px-icon-sbMarca.png" alt="" title="" /></h1>
+                        </div>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+                    <!--==========================
+                    NavBar -- 
+                    <a href="#body" class="nav-item nav-link active">Início</a>
+                    <a href="#localidades" class="nav-item nav-link">Localidades</a>
+                    ============================-->
+                    <!-- #nav-menu-container -->
+                    <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                        <div class="navbar-nav m-auto py-0">
+                            <a href="#sobre" class="nav-item nav-link">Sobre</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active"
+                                    data-bs-toggle="dropdown">Localidades</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalRecife">Recife</a>
+                                    <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalBrasilia">Brasília</a>
+                                    <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalCampinas">Campinas</a>
+                                </div>
+                            </div>
+                            <a href="https://blog.siestabox.com.br" target="_blank" class="nav-item nav-link">Blog</a>
+                            <a href="#" class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#faq">FAQ</a>
+                            <a href="#" class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#contatov2">Contato</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+    <!-- End Header-->
+    <!-- Service Start -->
+    <div class="container-fluid" id="firstHero">
+        <div class="container firstHero px-0 py-4 my-0" id="localidades">
+            <div class="row mx-0 justify-content-center text-center">
+                <div class="owlCarouselHeader col-lg-12 m-0">
+                    <h6 class="text-uppercase">Onde Estamos</h6>
+                    <h3 class="text-shadow">Selecione um Aeroporto de Destino</h3>
+                    <p class="text-shadow m-0">Escolha sua cabine.</p>
+                </div>
+            </div>
+            <!-- Carousel Start -->
+            <div class="row mx-0 justify-content-center text-center my-0 px-0 py-0">
+                <div class="slider">
+                    <div class="owl-carousel">
+                        
+                        <div class="slider-card" style="background-image: url(img/service-1.jpg);">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                
+                            </div>
+                            <h4 class="text-shadow font-weight-bold px-2">Campinas - SP</h4>
+                            <p class="text-shadow px-3 mb-3">Aeroporto Viracopos</p>
+                            <div class="w-100 bg-white text-center p-3">
+                                <a class="btn-reservas" href="#" data-bs-toggle="modal" data-bs-target="#modalCampinas">Saiba Mais <i class="far fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                        <div class="slider-card" style="background-image: url(img/service-2.jpg);">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                
+                            </div>
+                            <h4 class="text-shadow font-weight-bold px-3">Brasília</h4>
+                            <p class="text-shadow px-3 mb-3">Aeroporto de Brasília</p>
+                            <div class="w-100 bg-white text-center p-3">
+                                <a class="btn-reservas" href="#" data-bs-toggle="modal" data-bs-target="#modalBrasilia">Saiba Mais <i class="far fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                        <div class="slider-card" style="background-image: url(img/service-3.jpg);">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                
+                            </div>
+                            <h4 class="text-shadow font-weight-bold px-3">Recife</h4>
+                            <p class="text-shadow px-3 mb-3">Aeroporto Gilberto Freyre</p>
+                            <div class="w-100 bg-white text-center p-3">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalRecife">Saiba Mais <i class="far fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+            <!--==========================
+            Formulario Reservas Section
+            ============================-->
+            <section id="reservas" class="wow fadeInUp sec-padding">
+                <div class="row justify-content-center bg-appointment mx-0">
+                    <div class="col-lg-6 py-3">
+                        <div class="p-5 my-3">
+                            <h1 class="text-white text-center mb-3">Faça já sua Reserva!</h1>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div>
+                                                <select class="custom-select bg-transparent px-1">
+                                                    <option selected>Escolha - Choose</option>
+                                                    <option value="1"> Recife</option>
+                                                    <option value="2"> Brasília</option>
+                                                    <option value="3"> Campinas - SP</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control bg-transparent p-4" placeholder="Horas de estadia" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="date" id="date" data-target-input="nearest">
+                                                <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Escolha a data" data-target="#date" data-toggle="datetimepicker" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="time" id="time" data-target-input="nearest">
+                                                <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Escolha a hora" data-target="#time" data-toggle="datetimepicker" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button class="btn-reservas-form" type="submit">Eu quero! <i class="far fa-calendar-check"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Formulario Reservas End -->
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- Sobre Section -->
+    <section id="sobre" class="wow fadeInUp sec-padding">
+        <!-- Quem somos Start-->
+        <div class="container-fluid py-3">
+            <div class="container py-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pb-3 pb-lg-0">
+                        <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="text-uppercase py-1 px-4">Sobre</h6>
+                        <h1 class="mb-3 px-4">Quem Somos</h1>
+                        <h3 class="mb-3 px-4">Bem-vindos(as)!</h3>
+                        <p class="pl-4 border-left border-primary ml-4">Visando o conforto dos passageiros e demais usuários de aeroportos, desenvolvemos as Cabines Siesta Box, um ambiente privativo, com CHECK IN/OUT expresso, automatizado, com TV a Cabo,
+                        Ar-Condicionado, Wi-Fi e Cama, numa estrutura confortável e segura para o seu tempo de
+                        espera.</p>
+                        <p>Nossas cabines estão estrategicamente localizadas nos aeroportos de:
+                        Brasília, Campinas e Recife.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quem Somos End -->
+    </section>
+    <!-- Start Modais -->
+    <!-- Aeroportos Start -->
+
+    <!-- Aeroporto Recife -->
+    <div class="modal fade" id="modalRecife" aria-labelledby="recifeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Recife</h2>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    
+                                        <img class="w-100 img-card-uf" src="img/recife-1024x768.jpg">
+                                    
+                                </div>
+                                <div class="col legendaOpenHours">
+                                   
+                                        <h3>Siesta Box Guararapes</h3>
+                                        <h5>Horário de Funcionamento / Open Hours</h5>
+                                        
+                                        <p><i class="bi bi-clock"></i> 24/7 - Semanalmente/Weekly</p> 
+                                     
+                                        <!--<a href="#" class="btn-reservas mt-2">Reserve</a>-->
+                                    
+                                </div>
+                                <div class="col">
+                                    
+                                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.6840519416096!2d-34.91974668558577!3d-8.13361239414502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e3a18fdc2b5%3A0x6a24f2d4bf1d52ad!2sSiesta%20Box%20Guararapes!5e0!3m2!1spt-BR!2sbr!4v1631575441916!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy"></iframe>
+                                    
+                                </div>
+                            </div>  
+                        </div>                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aeroporto Brasília -->
+    <div class="modal fade" id="modalBrasilia" aria-labelledby="brasiliaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Brasília</h2>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    
+                                    <img class="w-100 img-card-uf" src="img/brasilia-1024x768.jpg">
+                                    
+                                </div>
+                                <div class="col legendaOpenHours">
+                                   
+                                        <h3>Siesta Box JK</h3>
+                                        <h5>Horário de Funcionamento / Open Hours</h5>
+                                        
+                                        <p><i class="bi bi-clock"></i> 24/7 - Semanalmente/Weekly</p> 
+                                     
+                                        <!--<a href="#" class="btn-reservas mt-2">Reserve</a>-->
+                                    
+                                </div>
+                                <div class="col">
+                                    
+                                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.7112850974568!2d-47.921330385499814!3d-15.871764589003114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a255e6a10884b%3A0x41d96efa9db552ae!2sSiesta%20Box%20Brasilia!5e0!3m2!1spt-BR!2sbr!4v1631575740463!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                    tabindex="0" loading="lazy"></iframe>
+                                    
+                                </div>
+                            </div>  
+                        </div>                    
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aeroporto Campinas -->
+    <div class="modal fade" id="modalCampinas" aria-labelledby="campinasModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Campinas</h2>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col card-img-uf">
+                                    
+                                        <img class="w-100 img-card-uf" src="img/campinas-1024x768.jpg">
+                                    
+                                </div>
+                                <div class="col legendaOpenHours">
+                                   
+                                        <h3>Siesta Box Viracopos</h3>
+                                        <h5>Horário de Funcionamento / Open Hours</h5>
+                                        
+                                        <p><i class="bi bi-clock"></i> 24/7 - Semanalmente/Weekly</p> 
+                                     
+                                        <!--<a href="#" class="btn-reservas mt-2">Reserve</a>-->
+                                    
+                                </div>
+                                <div class="col iframe-uf">
+                                    
+                                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.398711356174!2d-47.149713544910036!3d-23.00912832656351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8f9588d85d7%3A0x1c94280b8743efcb!2sSiesta%20Box%20Viracopos!5e0!3m2!1spt-BR!2sbr!4v1631566213579!5m2!1spt-BR!2sbr"
+                                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                    tabindex="0" loading="lazy"></iframe>
+                                    
+                                </div>
+                            </div>  
+                        </div>                    
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aeroportos End -->
+    
+        <!-- modal Contato V 2-->
+        <div class="modal fade" id="contatov2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Fale Conosco</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contato Start <h2 class="mb-3">Fale Conosco</h2>-->
+                        <div class="container-fluid" id="blog">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="contact-form bg-light p-2">
+                                            
+                                            <div id="success"></div>
+                                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                                <div class="form-row">
+                                                    <div class="col-sm-6 control-group">
+                                                        <input type="text" class="form-control border-0" id="name"
+                                                            placeholder="Seu nome" required="required"
+                                                            data-validation-required-message="Por favor digite seu nome" />
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                    <div class="col-sm-6 control-group">
+                                                        <input type="email" class="form-control border-0" id="email"
+                                                            placeholder="Seu email" required="required"
+                                                            data-validation-required-message="Por favor digite um email válido" />
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <input type="text" class="form-control border-0" id="subject"
+                                                        placeholder="Assunto" required="required"
+                                                        data-validation-required-message="Informe um assunto!" />
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                                <div class="control-group">
+                                                    <textarea class="form-control border-0 py-3" rows="3" id="message"
+                                                        placeholder="Mensagem" required="required"
+                                                        data-validation-required-message="Escreva aqui como podemos te ajudar."></textarea>
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn-reservas-form py-3 px-4" type="submit"
+                                                        id="sendMessageButton">Enviar <i
+                                                            class="fa fa-envelope mr-2"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contato End -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Contato V 2 -->
+    <!-- modal Termos-->
+    <div class="modal fade" id="termos">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Termos de Uso</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contato Start -->
+                    <div class="container-fluid" id="blog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h1>Termos de Uso</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contato End -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal Termos -->
+    <!-- modal Politica de Privacidade-->
+    <div class="modal fade" id="polis">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Política de Privacidade</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contato Start -->
+                    <div class="container-fluid" id="blog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h1>Política de Privacidade</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contato End -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Politica de Privacidade -->
+    <!-- modal FAQ-->
+    <div class="modal fade" id="faq">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">FAQ - Perguntas Frequentes</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Fechar X">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Faqs Start -->
+                    <div class="container-fluid" id="faqs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="accordion accordion-flush" id="accordionFaq">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                              Pergunta? #1
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFaq">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                              Pergunta? #2
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFaq">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                              Pergunta? #3
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFaq">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading4">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                                Pergunta? #4
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFaq">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading5">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                                Pergunta? #5
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFaq">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading6">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                                Pergunta? #6
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFaq">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading7">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                                Pergunta? #7
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFaq">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="accordion accordion-flush" id="accordionFaq2">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-heading8">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                                              Pergunta? #8
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFaq2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingNine">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                              Pergunta? #9
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFaq2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingTen">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                              Pergunta? #10
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFaq2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading11">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                                                Pergunta? #11
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFaq2">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading12">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                                                Pergunta? #12
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFaq2">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading13">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                                Pergunta? #13
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFaq2">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-heading14">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                                                Pergunta? #14
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent="#accordionFaq2">
+                                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Faqs End -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal FAQ -->
+    <!-- End Modais -->
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative py-3">
+        <div class="container pt-3">
+            <div class="row">
+                <!--bottom-lateralesquerda-->
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand ml-lg-3">
+                        <!--+Logo=-->
+                        <div id="logo" class="pull-left">
+                            <h1 class="m-0"><img src="img/150x149px-icon-sbMarca.png" alt="" title="" /></h1>
+                        </div>
+                    </a>
+                    <p>Voar cansa. Pouse Aqui!</p>
+                    <ul>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalRecife"><i class="fa fa-map-marker-alt mr-2"></i>Recife</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalBrasilia"><i class="fa fa-map-marker-alt mr-2"></i>Brasília</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalCampinas"><i class="fa fa-map-marker-alt mr-2"></i>Campinas - SP</a></li>
+                    </ul>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+55 81 99876.5432</p>
+                    <p><i class="fa fa-envelope mr-2"></i>contato@siestabox.com.br</p>
+                    
+
+                </div>
+                <!--bottom-lateraldireita-->
+                <div class="col-lg-6 text-center pr-lg-5 mb-2">
+                     <div class="col-md-12 mb-2">
+                        <h5 class="text-white text-uppercase mb-1">Receba as Novidades!</h5>
+                        <p>Assine nossa newsletter e receba conteúdo<br>
+                            exclusivo direto na sua caixa de entrada.</p>
+                        <div class="w-100">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-light" style="padding: 5px;" placeholder="Digite seu melhor email.">
+                                <div class="input-group-append">
+                                    <button class="btn-reservas-form" type="submit">Eu quero! <i class="fas fa-user-edit"></i></button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-12 p-2 mb-2">
+                        <p>R. da Guia, 142<br>Sala - 307-2 - 3º Andar
+                            <br>Bairro do Recife – Recife - PE<br>
+                            CEP 50030-210</p>
+                            <p><a href="#" data-bs-toggle="modal" data-bs-target="#termos">Termos de Uso</a> | <a href="#" data-bs-toggle="modal" data-bs-target="#polis">Política de Privacidade</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border-top py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <a href="index.html" target="_self">&copy; 2021 - Siesta Box.</a><br>
+                    <p class="m-0">Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0">Desenvolvido por:<br>
+                        <a href="https://instagram.com/itseletronica.pe/" class="credits" target="_blank">ITS Tecnologia Criativa</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!--Bottom Mobile Start -->
+    <div id="bottomMobile" class="container-fluid">
+        <div class="container">
+            <div class="row py-2 px-lg-2">
+                <div class="col-lg-6 justify-content-center">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-primary px-2" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-2" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- B0tt0m Mobile End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
